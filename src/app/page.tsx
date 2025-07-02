@@ -1,8 +1,5 @@
-export default function Home() {
-  return (
-    <div>
-      <main></main>
-      <footer></footer>
-    </div>
-  );
+import { redirect } from "next/navigation";
+
+export default function Main() {
+  redirect("/summer");
 }
