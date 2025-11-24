@@ -1,4 +1,4 @@
-import Timer from "@/entities/timer/Timer";
+import Timer from "@/features/timer/Timer";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

@@ -1,9 +1,9 @@
 import dayjs from "dayjs";
 import { DateType, DifferenceType } from "../types/date.type";
 
-export default function getTimeDifference(current: DateType, event: DateType): DifferenceType {
-  const start = dayjs(current.msFullDate);
-  const end = dayjs(event.msFullDate);
+export default function getTimeDifference(startDate: DateType, endDate: DateType): DifferenceType {
+  const start = dayjs(startDate.msFullDate);
+  const end = dayjs(endDate.msFullDate);
 
   const msDuration = end.diff(start);
 
