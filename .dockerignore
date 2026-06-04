@@ -1,0 +1,11 @@
+.idea
+.next
+.yarn
+node_modules
+.env.example
+.gitignore
+.prettierrc
+README.md
+commitlint.config.js
+eslint.config.mjs
+Dockerfile
